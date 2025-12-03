@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #007bff 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    color: #fff;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.hero-section {
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #0056b3;
+    text-decoration: none;
+}
+
+.button-small {
+    display: inline-block;
+    color: #fff;
+    background: #6c757d;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background 0.3s ease;
+}
+
+.button-small:hover {
+    background: #5a6268;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-section {
+    background: #fff;
+}
+
+.projects-section {
+    background: #e9ecef;
+}
+
+.contact-section {
+    background: #fff;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
